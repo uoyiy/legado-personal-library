@@ -1,0 +1,21 @@
+[
+  {
+    "bookSourceName": "香格里拉边境（日文原作）",
+    "bookSourceGroup": "日本Web小说",
+    "bookSourceUrl": "https://ncode.syosetu.com/n6169dz/",
+    "bookSourceType": 0,
+    "enabled": true,
+    "ruleBookInfo": {
+      "name": "h1@text",
+      "author": "meta[name='author']@content"
+    },
+    "ruleToc": {
+      "chapterList": "div.index_box dl dd",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": "#novel_honbun"
+    }
+  }
+]
